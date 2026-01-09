@@ -1,6 +1,7 @@
 package com.example.commonlib.dto;
 
 
+import com.example.commonlib.Enum.MailTemplate;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
@@ -15,6 +16,6 @@ import java.util.Map;
 public class NotificationEvent {
     String channel;
     String recipient;
-    String template;
+    MailTemplate template;
     Map<String, Object> data;
 }
