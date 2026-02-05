@@ -3,6 +3,8 @@ package com.example.commonlib.dto;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
+import java.util.Map;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -10,6 +12,6 @@ import lombok.experimental.FieldDefaults;
 @Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class OrderEvent {
-    String skuCode;
-    Integer quantity;
+    Integer userId;
+    Map<String, Integer> items;
 }
