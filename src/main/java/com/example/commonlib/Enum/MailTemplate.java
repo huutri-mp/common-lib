@@ -11,7 +11,8 @@ public enum MailTemplate {
     PAYMENT_SUCCESS("paymentsuccess"),
     USER_CREATED("usercreated"),
     USER_UPDATED("userupdated"),
-    PASSWORD_CHANGED("passwordchanged");
+    PASSWORD_CHANGED("passwordchanged"),
+    ORDER_CANCLE("ordercancle");
 
     private final String key;
 }
