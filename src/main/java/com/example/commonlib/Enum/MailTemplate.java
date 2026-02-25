@@ -12,7 +12,7 @@ public enum MailTemplate {
     USER_CREATED("usercreated"),
     USER_UPDATED("userupdated"),
     PASSWORD_CHANGED("passwordchanged"),
-    ORDER_CANCLE("ordercancle");
+    ORDER_CANCLE("ordercancelled");
 
     private final String key;
 }
