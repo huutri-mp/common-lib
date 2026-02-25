@@ -13,5 +13,5 @@ import java.util.Map;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class OrderEvent {
     Integer userId;
-    Map<String, Integer> items;
+    Map<String, Object> data;
 }
